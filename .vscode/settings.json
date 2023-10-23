@@ -1,0 +1,23 @@
+{
+    "[php]": {
+        "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+    },
+    // "[php]": {
+    //     "editor.defaultFormatter": "mtbdata.vscode-phpsab-docker"
+    // },
+    "phpsab.executablePathCBF": "/home/vovaent/work/projects/tools/WordPress-Coding-Standards/vendor/squizlabs/php_codesniffer/bin/phpcbf",
+    "phpsab.executablePathCS": "/home/vovaent/work/projects/tools/WordPress-Coding-Standards/vendor/squizlabs/php_codesniffer/bin/phpcs",
+    "phpsab.autoRulesetSearch": false,
+    "phpsab.standard": "WordPress",
+    "phpsab.snifferEnable": true, // disable this if you don't need suggestions
+    "phpsab.snifferShowSources": true,
+    "phpsab.snifferArguments": [
+        "--ignore=*/wp-admin/*,*/wp-includes/*,*/includes/acf/acf-pro/*"
+    ],
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    // "phpsab.docker.dockerEnabled": true,
+    // "phpsab.docker.dockerContainer": "wordpress",
+    // "phpsab.docker.dockerWorkspaceRoot": "/var/www/html/wp/wp-content/plugins/my-awesome-plugin",
+    "intelephense.files.exclude": ["*/includes/acf/acf-pro/*"]
+}
